@@ -34,11 +34,7 @@ namespace LinkGroup.DemoTests.HooksFile
                 basePath = reusableMethods.BasePath;
    
             }
-            [BeforeFeature]
-            public static void BeforeFeature()
-            {
-
-            }
+           
             [BeforeScenario]
             public void BeforeScenario()
             {
